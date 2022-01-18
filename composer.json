@@ -1,5 +1,5 @@
 {
-	"name" : "obs/esdk-obs-php",
+	"name" : "daichongweb/esdk-obs-php",
 	"description" : "OBS PHP SDK",
 	"license":"Apache-2.0",
 	"version":"3.21.6",
@@ -12,7 +12,7 @@
 		"monolog/monolog" : "^1.22 || ^2.0",
 		"psr/log" : "~1.0"
 	},
-	
+
 	"keywords" :["obs", "php"],
 	"autoload": {
 		"psr-4": {
