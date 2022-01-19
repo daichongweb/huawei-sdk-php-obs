@@ -82,7 +82,7 @@ class SdkCurlFactory implements CurlFactoryInterface
         }
     }
 
-    public function release(EasyHandle $easy)
+    public function release(EasyHandle $easy): void
     {
         $resource = $easy->handle;
         unset($easy->handle);
