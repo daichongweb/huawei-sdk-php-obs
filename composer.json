@@ -1,22 +1,24 @@
 {
-	"name" : "daichongweb/esdk-obs-php",
-	"description" : "OBS PHP SDK",
-	"license":"Apache-2.0",
-	"version":"3.21.6",
-	"require" : {
-		"php" : ">=7.0",
-		"guzzlehttp/guzzle" : "^6.5",
-		"guzzlehttp/promises": "^1.5",
-		"guzzlehttp/psr7": "^1.8.3 || ^2.1",
-		"psr/http-message" : "^1.0.1",
-		"monolog/monolog" : "^1.22 || ^2.0",
-		"psr/log" : "~1.0"
-	},
-
-	"keywords" :["obs", "php"],
-	"autoload": {
-		"psr-4": {
-			"Obs\\": "Obs/"
-		}
+  "name": "daichongweb/esdk-obs-php",
+  "description": "OBS PHP SDK",
+  "license": "Apache-2.0",
+  "version": "3.21.6",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.5 || ^7.0 ",
+    "guzzlehttp/promises": "^1.5",
+    "guzzlehttp/psr7": "^1.8.3 || ^2.1",
+    "psr/http-message": "^1.0.1",
+    "monolog/monolog": "^1.22 || ^2.0",
+    "psr/log": "~1.0"
+  },
+  "keywords": [
+    "obs",
+    "php"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Obs\\": "Obs/"
     }
+  }
 }
